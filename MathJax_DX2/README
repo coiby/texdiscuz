@@ -4,6 +4,10 @@
 
 This plugin integrates MathJax1.1a with DiscuzX2.
 
+FEATURES
+-----------
+1. Only CURMODULE 'viewthread', 'forumdisplay', 'post' use MathJax;
+2. The API of MathJax can be manually configured.
 
 INSTALLATION
 ----------------------
@@ -17,16 +21,17 @@ INSTALLATION
 
 4. Copy this plugin to your server and install it.
 
+5. Configuring the API of MathJax. By default it's 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'.
+
 
 To be improved
 -------------
-1. allowing loading MathJax from the CDN(cdn.mathjax.org)
-2. limit the rendering to specified cases
+1. supporting MathJax 2
 
 
 Some docs and examples for Developing Discuz Plugin
 ------------------------------------------------------------------
-1. http://wenku.baidu.com/view/513b590690c69ec3d5bb758f.html
+1.http://www.discuz.net/thread-2441621-1-1.html
 2. http://dev.discuz.org/wiki/
 3. http://www.jiathis.com/help/html/discuz-install-jiathis
 

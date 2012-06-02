@@ -6,7 +6,7 @@ This plugin integrates MathJax1.1a with DiscuzX2.
 
 FEATURES
 -----------
-1. Only CURMODULE 'viewthread', 'forumdisplay', 'post' use MathJax;
+1. Only CURMODULE 'viewthread', 'forumdisplay', 'post'and 'space' use MathJax;
 2. The API of MathJax can be manually configured.
 
 INSTALLATION

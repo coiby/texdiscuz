@@ -1,3 +1,12 @@
+------------------------------------------------------------------------
+----------------------MathJax Plugin for Discuz-------------------------
+------------------------------------------------------------------------
+
+This plugin integrates MathJax1.1a with DiscuzX2.
+
+
+INSTALLATION
+----------------------
 1. Download MathJax1.1a from 
      https://github.com/mathjax/MathJax/zipball/v1.1a.
 
@@ -8,3 +17,12 @@
 
 4. Copy this plugin to your server and install it.
 
+
+Some docs and examples for Developing Discuz Plugin
+------------------------------------------------------------------
+1. http://wenku.baidu.com/view/513b590690c69ec3d5bb758f.html
+2. http://dev.discuz.org/wiki/
+3. http://www.jiathis.com/help/html/discuz-install-jiathis
+
+=========
+浙大学习网 http://zjustu.org

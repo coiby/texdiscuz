@@ -1,0 +1,10 @@
+1. Download MathJax1.1a from 
+     https://github.com/mathjax/MathJax/zipball/v1.1a.
+
+2. Install MathJax according to the docs:
+     http://www.mathjax.org/docs/1.1/index.html
+
+3. Place MathJax to the DocumentRoot, i.e the path for MathJax is {your_url}/MathMax
+
+4. Copy this plugin to your server and install it.
+

@@ -18,11 +18,23 @@ INSTALLATION
 4. Copy this plugin to your server and install it.
 
 
+To be improved
+-------------
+1. allowing loading MathJax from the CDN(cdn.mathjax.org)
+2. limit the rendering to specified cases
+
+
 Some docs and examples for Developing Discuz Plugin
 ------------------------------------------------------------------
 1. http://wenku.baidu.com/view/513b590690c69ec3d5bb758f.html
 2. http://dev.discuz.org/wiki/
 3. http://www.jiathis.com/help/html/discuz-install-jiathis
 
-=========
+LICENSE
+-------
+MathJax Plugin for Discuz is licensed under version 2 of the GNU GPL.
+
+
+COPYRIGHT
+----------------------------
 浙大学习网 http://zjustu.org

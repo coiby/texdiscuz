@@ -1,0 +1,80 @@
+<!--{template common/header}-->
+<style>
+#MathInput {
+ width:90%;/*自动适应父布局宽度*/
+ overflow:auto
+}
+.output {
+  border: 1px solid black;
+  padding: 1em;
+  height: 20em;
+  width: auto;
+  position: relative; top: 0; left: 0;
+  min-width: 20em;
+}
+.box {position: relative}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+  });
+</script>
+<script type="text/javascript" >
+//
+  //  Use a closure to hide the local variables from the
+  //  global namespace
+  //
+  (function () {
+    var QUEUE = MathJax.Hub.queue;  // shorthand for the queue
+    var math = null, box = null;    // the element jax for the math output, and the box it's in
+
+    //
+    //  Hide and show the box (so it doesn't flicker as much)
+    //
+    var HIDEBOX = function () {box.style.visibility = "hidden"}
+    var SHOWBOX = function () {box.style.visibility = "visible"}
+    math = document.getElementById("MathOutput");
+    box = document.getElementById("box");
+      
+    //
+    //  The onchange event handler that typesets the
+    //  math entered by the user
+    //
+    window.UpdateMath = function (Tex) {
+      math.innerHTML = Tex;
+      MathJax.Hub.Queue(["Typeset", MathJax.Hub,"MathOutput"]);
+    }
+
+    //
+    //  IE doesn't fire onchange events for RETURN, so
+    //   use onkeypress to do a blur (and refocus) to
+    //   force the onchange to occur
+    //
+    if (MathJax.Hub.Browser.isMSIE) {
+      window.MathInput.onkeypress = function () {
+        if (window.event && window.event.keyCode === 13) {this.blur(); this.focus()}
+      }
+    }
+  })();
+</script>
+
+
+<div class="f_c">
+		<h3 class="flb">
+			<em id="close_mathjax">{lang mathjax:LaTex_EQ}</em>
+			<span>
+				<!--{if !empty($_G['gp_infloat'])}--><a href="javascript:;" class="flbc" onclick="hideWindow('mathjax_add')" title="{lang mathjax:close}">{lang mathjax:close}</a><!--{/if}-->
+			</span>
+		</h3>
+
+	<p>
+Type some TeX code please:<br /> 
+<textarea id="MathInput" onkeyup="UpdateMath(this.value)" /></textarea>
+</p>
+	<div class="box" id="box" style="">
+		<div id="MathOutput" class="output">$$ $$</div>
+	</div>
+</div>
+
+<!--{template common/footer}-->

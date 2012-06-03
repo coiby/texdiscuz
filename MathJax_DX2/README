@@ -28,12 +28,15 @@ To be improved
 -------------
 1. supporting MathJax 2
 
+2. to support visual-editing, it requires lots of efforts, a good example is highlight plugin
 
 Some docs and examples for Developing Discuz Plugin
 ------------------------------------------------------------------
-1.http://www.discuz.net/thread-2441621-1-1.html
+1. http://www.discuz.net/thread-2441621-1-1.html
 2. http://dev.discuz.org/wiki/
 3. http://www.jiathis.com/help/html/discuz-install-jiathis
+4. http://hi.baidu.com/qihjn/blog/item/33ab97aff58a67f1faed505d.html
+5. http://yang8787jie-126-com.iteye.com/blog/1166388
 
 LICENSE
 -------

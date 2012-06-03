@@ -21,7 +21,7 @@ class plugin_mathjax {
 		$this->pluginurl = $_G['siteurl'].'source/plugin/mathjax/';
 	}
 	function global_footer(){
-		if(CURMODULE == 'viewthread' || CURMODULE == 'forumdisplay' || CURMODULE == 'post' || CURMODULE == 'space') {
+		if(CURMODULE == 'viewthread' || CURMODULE == 'forumdisplay' || CURMODULE == 'post' ) {
 		$script = "<script type='text/x-mathjax-config'>\n MathJax.Hub.Config({\n    tex2jax: {
       inlineMath: [ ['$','$'], [\"\\\\[\",\"\\\\]\"], ['[tex]','[/tex]'] ],\n processEscapes: true\n}\n });\n </script>";
 		$script .= "<script type='text/javascript' src='".$this->mathjax_api."'></script>\n";
@@ -30,6 +30,13 @@ class plugin_mathjax {
 			return;
 		}
 	}
+	function post_editorctrl_left(){
+		$str = $css = '';
+		$str = '<style>.cst { display:none; }</style><a id="ed_mathjax" href="plugin.php?id=mathjax:mathjax&adds=e_iframe"  menupos="00" menuwidth="600" class="b1r" title="'.lang('plugin/mathjax','mathjax').'"  onclick="showWindow(\'mathjax_add\', this.href);" style="background:url(source/plugin/mathjax/images/LaTex.png) no-repeat;">Tex</a>';
+		return $str.$css;
+	}
 }
 
+class plugin_mathjax_forum extends plugin_mathjax {
+}
 ?>

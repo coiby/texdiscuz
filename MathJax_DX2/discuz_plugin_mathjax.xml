@@ -42,5 +42,11 @@
 				<item id="extra"><![CDATA[]]></item>
 			</item>
 		</item>
+		<item id="language">
+			<item id="templatelang">
+				<item id="LaTex_EQ"><![CDATA[公式输入]]></item>
+				<item id="close"><![CDATA[关闭]]></item>
+			</item>
+		</item>
 	</item>
 </root>

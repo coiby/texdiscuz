@@ -43,6 +43,10 @@
     //  math entered by the user
     //
     window.UpdateMath = function (Tex) {
+      if(box.style.visibility == "hidden"){
+	SHOWBOX();
+}
+
       math.innerHTML = Tex;
       MathJax.Hub.Queue(["Typeset", MathJax.Hub,"MathOutput"]);
     }
@@ -76,7 +80,7 @@
 	   <textarea id="MathInput" onkeyup="UpdateMath(this.value)" />$$ $$ </textarea>
 	</p>
         <p class="pbn">
-	   <div class="box" id="box" style="">
+	   <div class="box" id="box" style="visibility:hidden">
 		<div id="MathOutput" class="output">$$ $$</div>
            </div>
 	</p>

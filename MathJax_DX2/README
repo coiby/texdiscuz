@@ -28,7 +28,7 @@ To be improved
 -------------
 1. supporting MathJax 2
 
-2. to support visual-editing, it requires lots of efforts, a good example is highlight plugin
+2. to better support visual-editing, like auto move cursor to middle of "$$" "$$". It requires lots of efforts, a good example is highlight plugin.
 
 Some docs and examples for Developing Discuz Plugin
 ------------------------------------------------------------------

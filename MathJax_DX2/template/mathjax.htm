@@ -1,13 +1,14 @@
 <!--{template common/header}-->
 <style>
 #MathInput {
- width:90%;/*自动适应父布局宽度*/
- overflow:auto
+ width:95%;/*自动适应父布局宽度*/
+ overflow:auto;
+ min-width: 20em;
 }
 .output {
   border: 1px solid black;
   padding: 1em;
-  height: 20em;
+  height: 15em;
   width: auto;
   position: relative; top: 0; left: 0;
   min-width: 20em;
@@ -60,24 +61,30 @@
 </script>
 
 
-<div class="f_c">
-		<h3 class="flb">
-			<em id="close_mathjax">{lang mathjax:LaTex_EQ}</em>
-			<span>
-				<!--{if !empty($_G['gp_infloat'])}--><a href="javascript:;" class="flbc" onclick="hideWindow('mathjax_add')" title="{lang mathjax:close}">{lang mathjax:close}</a><!--{/if}-->
-			</span>
-		</h3>
+<div class="p_opt cl">
+	<h3 class="flb">
+	    <em id="close_mathjax">{lang mathjax:LaTex_EQ}</em>
+		<span>
+			<!--{if !empty($_G['gp_infloat'])}--><a href="javascript:;" class="flbc" onclick="hideWindow('mathjax_add')" title="{lang mathjax:close}">{lang mathjax:close}</a><!--{/if}-->
+		</span>
+	</h3>
 
-	<p>
-Type some TeX code please:<br /> 
-<textarea id="MathInput" onkeyup="UpdateMath(this.value)" />$$ $$ </textarea>
-</p>
-	<div class="box" id="box" style="">
+	<p class="pbn">
+		Type some TeX code please:<br /> 
+	</p>
+	<p class="pbn">
+	   <textarea id="MathInput" onkeyup="UpdateMath(this.value)" />$$ $$ </textarea>
+	</p>
+        <p class="pbn">
+	   <div class="box" id="box" style="">
 		<div id="MathOutput" class="output">$$ $$</div>
-	</div>
-         <div class="pns mtn">
+           </div>
+	</p>
+	<p class="pbn">       
+           <div class="pns mtn">
              <button type="submit" id="mathjax_submit2" onclick="insertText(document.getElementById('MathInput').value); hideWindow('mathjax_add') " class="pn pnc"><strong>OK</strong></button>
-        </div>
+           </div>
+        </p>
 </div>
 
 <!--{template common/footer}-->

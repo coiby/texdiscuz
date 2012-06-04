@@ -45,6 +45,7 @@
 		<item id="language">
  			<item id="scriptlang">
                                 <item id="Input_Math"><![CDATA[输入数学公式和符号]]></item>
+				<item id="Formula"><![CDATA[公式]]></item>
 			</item>
 			<item id="templatelang">
 				<item id="LaTex_EQ"><![CDATA[公式输入]]></item>

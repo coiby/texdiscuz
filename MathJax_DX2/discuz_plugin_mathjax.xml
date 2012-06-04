@@ -48,7 +48,7 @@
 				<item id="close"><![CDATA[关闭]]></item>
 			</item>
 		</item>
-		<item id="license"><![CDATA[GPL-3]]></item>
+		<item id="license"><![CDATA[GNU GENERAL PUBLIC LICENSE V3(GPLv3)]]></item>
     		<item id="intro"><![CDATA[在Discuz论坛上用MathJax显示数学公式]]></item>
 	</item>
 </root>

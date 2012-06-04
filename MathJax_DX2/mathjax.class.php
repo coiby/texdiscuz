@@ -35,6 +35,7 @@ class plugin_mathjax {
 	}
 	function post_editorctrl_left(){
 		$str = $css = '';
+		$css = '<style>.cst { display:none; }</style>';
 		$str = '<a id="ed_mathjax" href="plugin.php?id=mathjax:mathjax&adds=e_iframe"  menupos="00" menuwidth="600" class="b1r" title="'.lang('plugin/mathjax','Input_Math').'"  onclick="showWindow(\'mathjax_add\', this.href);" style="background:url(source/plugin/mathjax/images/LaTex.png) no-repeat;">'.lang('plugin/mathjax','Formula').'</a>';
 		return $str.$css;
 	}

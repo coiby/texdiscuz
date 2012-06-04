@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
 	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
 	<item id="Version"><![CDATA[X2]]></item>
 	<item id="Time"><![CDATA[2012-06-03 01:13]]></item>
-	<item id="From"><![CDATA[学习网iStudy论坛 (http://istudy.zuss.zju.edu.cn/forum/)]]></item>
+	<item id="From"><![CDATA[学习网iStudy(http://zjustu.org)]]></item>
 	<item id="Data">
 		<item id="plugin">
 			<item id="available"><![CDATA[1]]></item>
@@ -14,7 +14,7 @@
 			<item id="datatables"><![CDATA[]]></item>
 			<item id="directory"><![CDATA[mathjax/]]></item>
 			<item id="copyright"><![CDATA[浙大学习网]]></item>
-			<item id="version"><![CDATA[0.1]]></item>
+			<item id="version"><![CDATA[1.0]]></item>
 			<item id="__modules">
 				<item id="0">
 					<item id="name"><![CDATA[mathjax]]></item>
@@ -48,5 +48,7 @@
 				<item id="close"><![CDATA[关闭]]></item>
 			</item>
 		</item>
+		<item id="license"><![CDATA[GPL-3]]></item>
+    		<item id="intro"><![CDATA[在Discuz论坛上用MathJax显示数学公式]]></item>
 	</item>
 </root>

@@ -1,15 +1,18 @@
 <?php
-if(!defined('IN_DISCUZ')) {
-	exit('Access Denied');
-}
 /**
  * Discuz plugin for MathJax
  * use $$ or \[\] to wrap texcodes
  * @copyright	© 2012 ZJUSTU
- * @author		Coiby@zjustu [http://zjustu.org]
- * @since		version - 2012-6-2
- * @License GPL2
+ * @author		Coiby@ZJSTU <http://zjustu.org>
+ * @since		version - 2012-6-3
+ * @version      1.0
+ * @License GPL3
  */
+
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
 class plugin_mathjax {
 	var $pluginurl = '';
 	var $mathjax_api = '';

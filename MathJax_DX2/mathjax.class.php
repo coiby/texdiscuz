@@ -3,7 +3,7 @@
  * Discuz plugin for MathJax
  * use $$ or \[\] to wrap texcodes
  * @copyright	© 2012 ZJUSTU
- * @author		Coiby@ZJSTU <http://zjustu.org>
+ * @author		Coiby@ZJUSTU <http://zjustu.org>
  * @since		version - 2012-6-3
  * @version      1.0
  * @License GPL3

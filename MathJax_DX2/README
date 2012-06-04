@@ -6,13 +6,17 @@ This is Version 1.0.
 
 This plugin integrates MathJax1.1a with DiscuzX2.
 
+Project Homepage
+----------------
+http://innov.zjustu.org/projects/texdiscuz/
 
 NEW FEATURES
------------
+------------
 add a menu to editor and allow to see the effects of Tex codes directly in the editor window
 
 INSTALLATION
-----------------------
+------------
+
 1. Download MathJax1.1a from 
      https://github.com/mathjax/MathJax/zipball/v1.1a.
 
@@ -33,6 +37,8 @@ To be improved
 2. to better support visual-editing, like auto move cursor to middle of "$$" "$$". It requires lots of efforts, a good example is highlight plugin.
 
 3. The parameter can't be passed to UpdateMath, why?
+
+4. Add project link to the plugin, so other people can help develop the plugin.
 
 Some docs and examples for Developing Discuz Plugin
 ------------------------------------------------------------------

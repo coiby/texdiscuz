@@ -21,6 +21,7 @@
     jax: ["input/TeX","output/HTML-CSS"],
   });
 </script>
+
 <script type="text/javascript" >
 //
   //  Use a closure to hide the local variables from the
@@ -43,11 +44,6 @@
     //  math entered by the user
     //
     window.UpdateMath = function (Tex) {
-      if(box.style.visibility == "hidden"){
-	SHOWBOX();
-}
-
-      math.innerHTML = Tex;
       MathJax.Hub.Queue(["Typeset", MathJax.Hub,"MathOutput"]);
     }
 
@@ -77,11 +73,11 @@
 		Type some TeX code please:<br /> 
 	</p>
 	<p class="pbn">
-	   <textarea id="MathInput" onkeyup="UpdateMath(this.value)" />$$ $$ </textarea>
+	   <textarea id="MathInput" onkeyup="document.getElementById('MathOutput').innerHTML=this.value; UpdateMath(this.value)"; />$$ $$ </textarea>
 	</p>
         <p class="pbn">
-	   <div class="box" id="box" style="visibility:hidden">
-		<div id="MathOutput" class="output">$$ $$</div>
+	   <div class="box" id="box" >
+		<div id="MathOutput" class="output"><p><I>The math will show here.</I></p></div>
            </div>
 	</p>
 	<p class="pbn">       

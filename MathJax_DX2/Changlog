@@ -1,0 +1,10 @@
+0.1 initial release
+-------------------
+
+- Only CURMODULE 'viewthread', 'forumdisplay' and 'post' use MathJax;
+- The API of MathJax can be manually configured.
+
+1.0 
+---
+
+add a menu to editor and allow to see the effects of Tex codes directly in the editor window

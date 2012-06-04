@@ -2,12 +2,14 @@
 ----------------------MathJax Plugin for Discuz-------------------------
 ------------------------------------------------------------------------
 
+This is Version 1.0.
+
 This plugin integrates MathJax1.1a with DiscuzX2.
 
-FEATURES
+
+NEW FEATURES
 -----------
-1. Only CURMODULE 'viewthread', 'forumdisplay', 'post'and 'space' use MathJax;
-2. The API of MathJax can be manually configured.
+add a menu to editor and allow to see the effects of Tex codes directly in the editor window
 
 INSTALLATION
 ----------------------

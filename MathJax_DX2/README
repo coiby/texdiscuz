@@ -29,6 +29,8 @@ INSTALLATION
 
 5. Configuring the API of MathJax. By default it's 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'.
 
+6. If buttons of editor are mis-aligned in narrow show(窄版), you have to remove some buttons.
+
 
 To be improved
 -------------
@@ -44,6 +46,7 @@ To be improved
 
 6. Render the edit box directly.
 
+7. allowing showing chosen codes, see mw_syntaxhighlighter plugin
 
 Some docs and examples for Developing Discuz Plugin
 ------------------------------------------------------------------

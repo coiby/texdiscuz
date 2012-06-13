@@ -35,7 +35,7 @@ class plugin_mathjax {
 	}
 	function post_editorctrl_left(){
 		$str = $css = '';
-		$str = '<a id="ed_mathjax" href="plugin.php?id=mathjax:mathjax&adds=e_iframe"  menupos="00" menuwidth="600" class="b1r" title="'.lang('plugin/mathjax','Input_Math').'"  onclick="showWindow(\'mathjax_add\', this.href);" style="background:url(source/plugin/mathjax/images/LaTex.png) no-repeat;">'.lang('plugin/mathjax','Formula').'</a>';
+		$str = '<a id="ed_mathjax" href="plugin.php?id=mathjax:mathjax&adds=e_iframe"  menupos="00" menuwidth="600" class="b1r" title="'.lang('plugin/mathjax','Input_Math').'"  onclick="showWindow(\'mathjax_add\', this.href);" style="background:url(source/plugin/mathjax/images/LaTex.png) no-repeat;background-position:center 1px">'.lang('plugin/mathjax','Formula').'</a>';
 		return $str.$css;
 	}
 }

@@ -26,7 +26,7 @@ class plugin_mathjax {
 	function global_footer(){
 		if(CURMODULE == 'viewthread' || CURMODULE == 'forumdisplay' || CURMODULE == 'post' ) {
 		$script = "<script type='text/x-mathjax-config'>\n MathJax.Hub.Config({\n    tex2jax: {
-      inlineMath: [ ['$','$'], [\"\\\\[\",\"\\\\]\"], ['[tex]','[/tex]'] ],\n processEscapes: true\n}\n });\n </script>";
+      inlineMath: [[\"\\\\(\",\"\\\\)\"]],\n displayMath: [[\"\\\\[\",\"\\\\]\"]],\n processEscapes: true,\n ignoreClass: \"blockcode\"\n}\n });\n </script>";
 		$script .= "<script type='text/javascript' src='".$this->mathjax_api."'></script>\n";
 		return $script;
 		} else{

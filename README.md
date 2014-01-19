@@ -5,7 +5,7 @@ This is Version 1.0.
 This plugin integrates MathJax1.1a with DiscuzX2.
 
 Demo Picture1:
-![](http://open.discuz.net/resource/preview/1910/1.jpg "Mathjax")
+![](http://open.discuz.net/resource/preview/1910/1.jpg)
 
 Demo Picture2:
 ![Demo Picture 2](http://open.discuz.net/resource/preview/1910/2.jpg "Mathjax")

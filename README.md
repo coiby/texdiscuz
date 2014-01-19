@@ -4,6 +4,13 @@ This is Version 1.0.
 
 This plugin integrates MathJax1.1a with DiscuzX2.
 
+Demo Picture1:
+![Demo Picture 1](http://open.discuz.net/resource/preview/1910/1.jpg "Mathjax")
+
+Demo Picture2:
+![Demo Picture 2](http://open.discuz.net/resource/preview/1910/2.jpg "Mathjax")
+
+
 ##Project Homepage
 https://github.com/Coiby/texdiscuz/
 

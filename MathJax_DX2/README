@@ -1,21 +1,17 @@
-------------------------------------------------------------------------
-----------------------MathJax Plugin for Discuz-------------------------
-------------------------------------------------------------------------
+#MathJax Plugin for Discuz
 
 This is Version 1.0.
 
 This plugin integrates MathJax1.1a with DiscuzX2.
 
-Project Homepage
-----------------
+##Project Homepage
 http://innov.zjustu.org/projects/texdiscuz/
 
-NEW FEATURES
-------------
+##NEW FEATURES
+
 add a menu to editor and allow to see the effects of Tex codes directly in the editor window
 
-INSTALLATION
-------------
+##INSTALLATION
 
 1. Download MathJax1.1a from 
      https://github.com/mathjax/MathJax/zipball/v1.1a.
@@ -32,8 +28,8 @@ INSTALLATION
 6. If buttons of editor are mis-aligned in narrow show(窄版), you have to remove some buttons.
 
 
-To be improved
--------------
+##To be improved
+
 1. supporting MathJax 2
 
 2. to better support visual-editing, like auto move cursor to middle of "$$" "$$". It requires lots of efforts, a good example is highlight plugin.
@@ -48,8 +44,8 @@ To be improved
 
 7. allowing showing chosen codes, see mw_syntaxhighlighter plugin
 
-Some docs and examples for Developing Discuz Plugin
-------------------------------------------------------------------
+##Some docs and examples for Developing Discuz Plugin
+
 1. http://www.discuz.net/thread-2441621-1-1.html
 2. http://dev.discuz.org/wiki/
 3. http://www.jiathis.com/help/html/discuz-install-jiathis
@@ -57,11 +53,11 @@ Some docs and examples for Developing Discuz Plugin
 5. http://yang8787jie-126-com.iteye.com/blog/1166388
 6. WYSIWYG editor: https://groups.google.com/forum/?fromgroups#!topic/mathjax-users/-26eAW-P_Mo
 
-LICENSE
--------
+##LICENSE
+
 MathJax Plugin for Discuz is licensed under version 3 of the GNU GPL.
 
 
-COPYRIGHT
-----------------------------
+##COPYRIGHT
+
 浙大学习网 @2012 http://zjustu.org 

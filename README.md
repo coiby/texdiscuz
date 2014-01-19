@@ -5,7 +5,7 @@ This is Version 1.0.
 This plugin integrates MathJax1.1a with DiscuzX2.
 
 ##Project Homepage
-http://innov.zjustu.org/projects/texdiscuz/
+https://github.com/Coiby/texdiscuz/
 
 ##NEW FEATURES
 
